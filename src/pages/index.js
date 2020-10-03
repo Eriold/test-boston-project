@@ -1,0 +1,5 @@
+export { default as Err } from './Error'
+export { default as Home } from './Home'
+export { default as Login } from './Login'
+export { default as PassRecovery } from './PassRecovery'
+export { default as Register } from './Register'

@@ -3,10 +3,7 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
-import Login from '../pages/Login';
-import PassRecovery from '../pages/PassRecovery';
-import Register from '../pages/Register';
-import Err from '../pages/Error'
+import { Login, PassRecovery, Register, Err, Home } from '../pages'
 
 const Routes = () => {
 
@@ -15,6 +12,7 @@ const Routes = () => {
       <Route exact path='/' component={Login} />
       <Route exact path='/PassRecovery' component={PassRecovery} />
       <Route exact path='/Register' component={Register} />
+      <Route exact path='/Home' component={Home} />
       <Route component={Err} />
     </Switch>
   )

@@ -1,6 +1,9 @@
 import React from 'react';
-import Login from '../../pages/Login';
+import Routes from '../../routes'
+import { BrowserRouter as Router } from 'react-router-dom';
 
-const App = () => <Login />;
+const App = () => <Router>
+  <Routes />
+</Router>;
 
 export default App;
